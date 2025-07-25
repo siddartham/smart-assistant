@@ -4,13 +4,15 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
+packages = [
+    { include = "src" },
+]
 dependencies = [
     "faiss-cpu>=1.11.0.post1",
     "langchain>=0.3.26",
     "openai>=1.97.1",
     "pandas>=2.3.1",
     "pymupdf>=1.26.3",
-    "streamlit>=1.47.0",
     "fastapi>=0.100.0",
     "langchain-community>=0.3.27",
     "uvicorn>=0.35.0",
@@ -31,4 +33,6 @@ dependencies = [
     "gradio>=5.38.1",
     "langchain-huggingface>=0.3.1",
     "langchain-cli>=0.0.36",
+    "isort>=6.0.1",
+    "unstructured>=0.18.11",
 ]

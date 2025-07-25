@@ -4,13 +4,14 @@ from typing import Annotated, TypedDict
 import gradio as gr
 from dotenv import load_dotenv
 from langchain.agents import Tool
-from langchain_openai import ChatOpenAI
 from langchain_community.utilities import GoogleSerperAPIWrapper
-
-from langgraph.graph import StateGraph, START
+from langchain_openai import ChatOpenAI
+from langgraph.checkpoint.memory import MemorySaver
+from langgraph.graph import START, StateGraph
 from langgraph.graph.message import add_messages
 from langgraph.prebuilt import ToolNode, tools_condition
-from langgraph.checkpoint.memory import MemorySaver
+
+from src.logger import PromptLoggingCallbackHandler
 
 load_dotenv(override=True)
 
@@ -66,7 +67,7 @@ A node can be any python function.
 The reducer that we set before gets automatically called to combine this response with previous responses
 """
 
-llm = ChatOpenAI(model="gpt-4o-mini")
+llm = ChatOpenAI(model="gpt-4o-mini", callbacks=[PromptLoggingCallbackHandler()])
 llm_with_tools = llm.bind_tools(tools)
 
 

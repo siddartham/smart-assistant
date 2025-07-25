@@ -1,23 +1,23 @@
 import os
-import streamlit as st
-import pandas as pd
-from dotenv import load_dotenv
 
-from langchain_openai import ChatOpenAI, OpenAIEmbeddings
+import pandas as pd
+import streamlit as st
+from dotenv import load_dotenv
+from langchain.agents import AgentType, Tool, initialize_agent
+from langchain.memory import ConversationBufferMemory
 from langchain_community.document_loaders import PyMuPDFLoader
-from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
-from langchain_core.tools import tool
 from langchain_core.prompts import MessagesPlaceholder
 from langchain_core.runnables import RunnableLambda
-from langchain.memory import ConversationBufferMemory
-from langchain.agents import initialize_agent, AgentType, Tool
+from langchain_core.tools import tool
+from langchain_openai import ChatOpenAI, OpenAIEmbeddings
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 # --- Load Environment Variables ---
 load_dotenv()
 
 # --- Constants ---
-DB_DIR = "faiss_index"
+DB_DIR = "../faiss_index"
 STRUCTURED_CSV = "worldbank_data.csv"
 EMBEDDINGS = OpenAIEmbeddings()
 LLM = ChatOpenAI(temperature=0)
@@ -52,12 +52,12 @@ summarize_doc_tool = Tool(
     description="Summarizes the uploaded document."
 )
 
-def summarize_doc_logic():
+async def summarize_doc_logic():
     try:
         db = FAISS.load_local(DB_DIR, EMBEDDINGS, allow_dangerous_deserialization=True)
         docs = db.similarity_search("summary", k=5)
         content = "\n".join([doc.page_content for doc in docs])
-        return LLM.invoke(f"Summarize the following:\n\n{content}")
+        return LLM.ainvoke(f"Summarize the following:\n\n{content}")
     except Exception as e:
         return f"[Summary Error] {str(e)}"
 
