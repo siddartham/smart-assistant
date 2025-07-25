@@ -1,0 +1,5 @@
+Region,Online_Sales_%,Avg_Order_Value,Customer_Satisfaction_Score,Top_Product,Units_Sold_Product_A,Units_Sold_Product_B,Units_Sold_Product_C,Revenue_Product_A,Revenue_Product_B,Revenue_Product_C,Return_Rate_%,Promo_Code_Usage_%,Peak_Sale_Month
+North,30,75.3,8.9,Product A,2200,2000,2100,169855,155304,160141,2.5,12,December
+South,25,68.9,8.4,Product B,1850,1900,1700,145000,144000,135000,3.1,15,November
+East,27,71.4,8.6,Product C,1700,1750,1950,132000,138000,150000,2.9,13,November
+West,29,70.1,8.5,Product C,1600,1800,2000,128000,139000,155000,3.0,14,December

@@ -1,0 +1,278 @@
+2025-07-24 23:19:36,722 [INFO] Use pytorch device_name: mps
+2025-07-24 23:19:36,722 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-24 23:20:41,386 [INFO] Use pytorch device_name: mps
+2025-07-24 23:20:41,386 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-24 23:21:18,560 [INFO] Use pytorch device_name: mps
+2025-07-24 23:21:18,560 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-24 23:22:50,010 [INFO] Use pytorch device_name: mps
+2025-07-24 23:22:50,010 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-24 23:22:53,288 [INFO] Use pytorch device_name: mps
+2025-07-24 23:22:53,288 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-24 23:22:55,001 [INFO] HTTP Request: GET http://127.0.0.1:7864/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-24 23:22:55,015 [INFO] HTTP Request: HEAD http://127.0.0.1:7864/ "HTTP/1.1 200 OK"
+2025-07-24 23:22:55,046 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-24 23:22:55,081 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-24 23:23:19,339 [INFO] Indexing files: ['/private/var/folders/kt/1njn0vz93lq_23971_x49y_h0000gn/T/gradio/2e1603de864de35cdd99c6953c5d3b6408cc9be8ef8a9dffbc7a22f03125e2ea/Q4_2024_Sales_Report.pdf']
+2025-07-24 23:23:20,562 [INFO] Loading faiss.
+2025-07-24 23:23:20,599 [INFO] Successfully loaded faiss.
+2025-07-24 23:23:20,604 [INFO] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-24 23:23:20,606 [INFO] Indexed 5 chunks.
+2025-07-24 23:23:27,416 [INFO] User Input: Hi
+2025-07-24 23:26:23,297 [INFO] Use pytorch device_name: mps
+2025-07-24 23:26:23,297 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-24 23:26:26,439 [INFO] Use pytorch device_name: mps
+2025-07-24 23:26:26,439 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-24 23:26:27,912 [INFO] HTTP Request: GET http://127.0.0.1:7864/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-24 23:26:27,920 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-24 23:26:27,928 [INFO] HTTP Request: HEAD http://127.0.0.1:7864/ "HTTP/1.1 200 OK"
+2025-07-24 23:26:27,955 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-24 23:26:28,168 [INFO] Indexing files: ['/private/var/folders/kt/1njn0vz93lq_23971_x49y_h0000gn/T/gradio/2e1603de864de35cdd99c6953c5d3b6408cc9be8ef8a9dffbc7a22f03125e2ea/Q4_2024_Sales_Report.pdf']
+2025-07-24 23:26:28,395 [INFO] Loading faiss.
+2025-07-24 23:26:28,416 [INFO] Successfully loaded faiss.
+2025-07-24 23:26:28,420 [INFO] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-24 23:26:28,421 [INFO] Indexed 5 chunks.
+2025-07-24 23:26:38,694 [INFO] Indexing files: ['/private/var/folders/kt/1njn0vz93lq_23971_x49y_h0000gn/T/gradio/2e1603de864de35cdd99c6953c5d3b6408cc9be8ef8a9dffbc7a22f03125e2ea/Q4_2024_Sales_Report.pdf']
+2025-07-24 23:26:39,023 [INFO] Indexed 5 chunks.
+2025-07-24 23:26:54,423 [INFO] Indexing files: ['/private/var/folders/kt/1njn0vz93lq_23971_x49y_h0000gn/T/gradio/2e1603de864de35cdd99c6953c5d3b6408cc9be8ef8a9dffbc7a22f03125e2ea/Q4_2024_Sales_Report.pdf']
+2025-07-24 23:26:54,954 [INFO] Indexed 5 chunks.
+2025-07-24 23:26:57,607 [INFO] User Input: Hi
+2025-07-24 23:26:57,759 [INFO] [User Message] Hi
+2025-07-24 23:26:58,497 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 23:26:58,513 [INFO] [Assistant Response] Hello! How can I assist you today?
+2025-07-24 23:26:58,517 [INFO] Assistant Response: Hello! How can I assist you today?
+2025-07-24 23:38:41,592 [INFO] Use pytorch device_name: mps
+2025-07-24 23:38:41,593 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-24 23:38:44,981 [INFO] Use pytorch device_name: mps
+2025-07-24 23:38:44,981 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-24 23:38:46,675 [INFO] HTTP Request: GET http://127.0.0.1:7864/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-24 23:38:46,689 [INFO] HTTP Request: HEAD http://127.0.0.1:7864/ "HTTP/1.1 200 OK"
+2025-07-24 23:38:46,802 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-24 23:38:46,802 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-24 23:38:57,696 [INFO] Use pytorch device_name: mps
+2025-07-24 23:38:57,697 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-24 23:39:00,876 [INFO] Use pytorch device_name: mps
+2025-07-24 23:39:00,876 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-24 23:39:02,579 [INFO] HTTP Request: GET http://127.0.0.1:7864/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-24 23:39:02,591 [INFO] HTTP Request: HEAD http://127.0.0.1:7864/ "HTTP/1.1 200 OK"
+2025-07-24 23:39:02,681 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-24 23:39:02,681 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-24 23:39:34,179 [INFO] Use pytorch device_name: mps
+2025-07-24 23:39:34,179 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-24 23:39:37,242 [INFO] Use pytorch device_name: mps
+2025-07-24 23:39:37,243 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-24 23:39:38,973 [INFO] HTTP Request: GET http://127.0.0.1:7864/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-24 23:39:38,985 [INFO] HTTP Request: HEAD http://127.0.0.1:7864/ "HTTP/1.1 200 OK"
+2025-07-24 23:39:39,014 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-24 23:39:39,060 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-24 23:39:59,276 [INFO] Indexing files: ['/private/var/folders/kt/1njn0vz93lq_23971_x49y_h0000gn/T/gradio/2e1603de864de35cdd99c6953c5d3b6408cc9be8ef8a9dffbc7a22f03125e2ea/Q4_2024_Sales_Report.pdf']
+2025-07-24 23:39:59,824 [INFO] Loading faiss.
+2025-07-24 23:39:59,850 [INFO] Successfully loaded faiss.
+2025-07-24 23:39:59,855 [INFO] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-24 23:39:59,857 [INFO] Indexed 5 chunks.
+2025-07-24 23:40:03,448 [INFO] User Input: Hi
+2025-07-24 23:40:03,559 [INFO] [User Message] Hi
+2025-07-24 23:40:05,175 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 23:40:05,193 [INFO] [Assistant Response] Hello! How can I assist you today?
+2025-07-24 23:40:05,200 [INFO] Assistant Response: Hello! How can I assist you today?
+2025-07-24 23:41:33,495 [INFO] Use pytorch device_name: mps
+2025-07-24 23:41:33,495 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-24 23:41:35,926 [INFO] Use pytorch device_name: mps
+2025-07-24 23:41:35,926 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-24 23:41:37,079 [INFO] HTTP Request: GET http://127.0.0.1:7864/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-24 23:41:37,093 [INFO] HTTP Request: HEAD http://127.0.0.1:7864/ "HTTP/1.1 200 OK"
+2025-07-24 23:41:37,200 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-24 23:41:37,200 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-24 23:41:55,568 [INFO] Indexing files: ['/private/var/folders/kt/1njn0vz93lq_23971_x49y_h0000gn/T/gradio/2e1603de864de35cdd99c6953c5d3b6408cc9be8ef8a9dffbc7a22f03125e2ea/Q4_2024_Sales_Report.pdf']
+2025-07-24 23:41:56,262 [INFO] Loading faiss.
+2025-07-24 23:41:56,288 [INFO] Successfully loaded faiss.
+2025-07-24 23:41:56,292 [INFO] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-24 23:41:56,294 [INFO] Indexed 5 chunks.
+2025-07-24 23:42:06,970 [INFO] User Input: Hi
+2025-07-24 23:42:07,074 [INFO] [User Message] Hi
+2025-07-24 23:42:08,746 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 23:42:08,766 [INFO] [Assistant Response] Hello! How can I help you today?
+2025-07-24 23:42:08,772 [INFO] Assistant Response: Hello! How can I help you today?
+2025-07-24 23:48:33,328 [INFO] Use pytorch device_name: mps
+2025-07-24 23:48:33,329 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-24 23:48:35,902 [INFO] Use pytorch device_name: mps
+2025-07-24 23:48:35,902 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-24 23:48:37,213 [INFO] HTTP Request: GET http://127.0.0.1:7864/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-24 23:48:37,229 [INFO] HTTP Request: HEAD http://127.0.0.1:7864/ "HTTP/1.1 200 OK"
+2025-07-24 23:48:37,247 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-24 23:48:37,304 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-24 23:48:46,483 [INFO] Indexing files: ['/private/var/folders/kt/1njn0vz93lq_23971_x49y_h0000gn/T/gradio/2e1603de864de35cdd99c6953c5d3b6408cc9be8ef8a9dffbc7a22f03125e2ea/Q4_2024_Sales_Report.pdf']
+2025-07-24 23:48:47,135 [INFO] Loading faiss.
+2025-07-24 23:48:47,184 [INFO] Successfully loaded faiss.
+2025-07-24 23:48:47,190 [INFO] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-24 23:48:47,193 [INFO] Indexed 5 chunks.
+2025-07-24 23:48:50,854 [INFO] User Input: Hi
+2025-07-24 23:48:50,975 [INFO] [User Message] Hi
+2025-07-24 23:48:52,390 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 23:48:52,408 [INFO] [Assistant Response] Hello! How can I assist you today?
+2025-07-24 23:48:52,415 [INFO] Assistant Response: Hello! How can I assist you today?
+2025-07-24 23:53:00,124 [INFO] Use pytorch device_name: mps
+2025-07-24 23:53:00,124 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-24 23:53:02,944 [INFO] Use pytorch device_name: mps
+2025-07-24 23:53:02,944 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-24 23:53:04,108 [INFO] HTTP Request: GET http://127.0.0.1:7864/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-24 23:53:04,120 [INFO] HTTP Request: HEAD http://127.0.0.1:7864/ "HTTP/1.1 200 OK"
+2025-07-24 23:53:04,167 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-24 23:53:04,230 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-24 23:53:29,774 [INFO] Indexing files: ['/private/var/folders/kt/1njn0vz93lq_23971_x49y_h0000gn/T/gradio/2e1603de864de35cdd99c6953c5d3b6408cc9be8ef8a9dffbc7a22f03125e2ea/Q4_2024_Sales_Report.pdf']
+2025-07-24 23:53:30,329 [INFO] Loading faiss.
+2025-07-24 23:53:30,368 [INFO] Successfully loaded faiss.
+2025-07-24 23:53:30,373 [INFO] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-24 23:53:30,375 [INFO] Indexed 5 chunks.
+2025-07-24 23:53:33,170 [INFO] [User Message] Hi
+2025-07-24 23:53:34,372 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 23:53:34,393 [INFO] [Assistant Response] Hello! How can I assist you today?
+2025-07-24 23:53:43,545 [INFO] [User Message] What are sales of North
+2025-07-24 23:53:44,189 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 23:53:44,196 [INFO] [Assistant Response] 
+2025-07-24 23:53:44,204 [INFO] [Tool: Structured Data] Query: sales of North
+2025-07-24 23:53:44,207 [INFO] [User Message] No relevant structured data found.
+2025-07-24 23:53:45,780 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 23:53:45,785 [INFO] [Assistant Response] I couldn't find any specific structured data on the sales of "North." If you have more context or details, please provide them, and I'll do my best to assist you!
+2025-07-24 23:54:23,760 [INFO] [User Message] What is my last question
+2025-07-24 23:54:24,554 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 23:54:24,559 [INFO] [Assistant Response] Your last question was: "What are sales of North?"
+2025-07-24 23:54:38,618 [INFO] [User Message] compare that to south region sales
+2025-07-24 23:54:39,398 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 23:54:39,406 [INFO] [Assistant Response] 
+2025-07-24 23:54:39,415 [INFO] [Tool: Structured Data] Query: sales of South region
+2025-07-24 23:54:39,419 [INFO] [User Message] No relevant structured data found.
+2025-07-24 23:54:41,268 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 23:54:41,280 [INFO] [Assistant Response] I wasn't able to locate specific structured data regarding the sales in the South region either. If you have access to detailed sales data or specific documents, you might provide those for a more in-depth analysis. Let me know how you'd like to proceed!
+2025-07-25 00:05:13,689 [INFO] [User Message] What is the interest rate of Loan A
+2025-07-25 00:05:14,942 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 00:05:14,956 [INFO] [Assistant Response] 
+2025-07-25 00:05:14,970 [INFO] [Tool: Structured Data] Query: interest rate of Loan A
+2025-07-25 00:05:15,093 [INFO] [User Message]       product  interest_rate  description
+       Loan A            7.5    Home loan
+       Loan B            6.9     Car loan
+Credit Card X           19.9 Rewards card
+2025-07-25 00:05:15,952 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 00:05:15,957 [INFO] [Assistant Response] The interest rate for Loan A is 7.5%. It is a home loan.
+2025-07-25 00:17:49,906 [INFO] Indexing files: ['/private/var/folders/kt/1njn0vz93lq_23971_x49y_h0000gn/T/gradio/2e1603de864de35cdd99c6953c5d3b6408cc9be8ef8a9dffbc7a22f03125e2ea/Q4_2024_Sales_Report.pdf']
+2025-07-25 00:17:51,687 [INFO] Indexed 5 chunks.
+2025-07-25 00:20:34,955 [INFO] [User Message] How is north performing
+2025-07-25 00:20:36,251 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 00:20:36,266 [INFO] [Assistant Response] 
+2025-07-25 00:20:36,287 [INFO] [Tool: Document Search] Query: North region performance
+2025-07-25 00:20:40,215 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 00:20:40,220 [INFO] [Document Search] Answer: The North region showed strong performance with $142,800 in sales. This performance was bolstered by expanded distribution channels and an increased sales team presence. Product A performed particularly well in this region.
+2025-07-25 00:20:40,226 [INFO] [User Message] The North region showed strong performance with $142,800 in sales. This performance was bolstered by expanded distribution channels and an increased sales team presence. Product A performed particularly well in this region.
+2025-07-25 00:20:41,292 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 00:20:41,297 [INFO] [Assistant Response] The North region is performing strongly, with $142,800 in sales. This success is attributed to expanded distribution channels and an increased presence of the sales team. Product A has performed particularly well in this region.
+2025-07-25 00:20:52,100 [INFO] [User Message] compare that with south
+2025-07-25 00:20:52,778 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 00:20:52,784 [INFO] [Assistant Response] 
+2025-07-25 00:20:52,794 [INFO] [Tool: Document Search] Query: South region performance
+2025-07-25 00:20:54,901 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 00:20:54,907 [INFO] [Document Search] Answer: In Q4 2024, the South region's sales performance reached $126,400. The region maintained steady growth despite facing increased competition. The successful performance in this region can be attributed to strategic partnerships with local distributors. Moreover, Product A showed strong performance in this region.
+2025-07-25 00:20:54,913 [INFO] [User Message] In Q4 2024, the South region's sales performance reached $126,400. The region maintained steady growth despite facing increased competition. The successful performance in this region can be attributed to strategic partnerships with local distributors. Moreover, Product A showed strong performance in this region.
+2025-07-25 00:20:57,461 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 00:20:57,467 [INFO] [Assistant Response] The South region's sales performance was $126,400. While maintaining steady growth despite increased competition, strategic partnerships with local distributors played a key role in this success. Both regions saw strong performance from Product A. 
+
+In comparison, the North region outperformed the South with $142,800 in sales, supported by expanded distribution channels and a stronger sales team presence.
+2025-07-25 00:33:29,418 [INFO] [User Message] How are the interest rate
+2025-07-25 00:33:32,295 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 00:33:32,352 [INFO] [Assistant Response] 
+2025-07-25 00:33:32,376 [INFO] [Tool: Structured Data] Query: interest rates overview
+2025-07-25 00:33:32,783 [INFO] [User Message]       product  interest_rate  description
+       Loan A            7.5    Home loan
+       Loan B            6.9     Car loan
+Credit Card X           19.9 Rewards card
+2025-07-25 00:33:36,984 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 00:33:37,004 [INFO] [Assistant Response] The current interest rates are as follows:
+
+- **Loan A:** 7.5% (Home loan)
+- **Loan B:** 6.9% (Car loan)
+- **Credit Card X:** 19.9% (Rewards card)
+
+If you need more details or further assistance, feel free to ask!
+2025-07-25 00:42:26,509 [INFO] [User Message] How are sales of south
+2025-07-25 00:42:28,965 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 00:42:28,975 [INFO] [Assistant Response] The sales performance of the South region reached $126,400. Despite facing increased competition, the region maintained steady growth, benefiting from strategic partnerships with local distributors. Product A also showed strong performance in this region.
+2025-07-25 00:50:40,620 [INFO] Use pytorch device_name: mps
+2025-07-25 00:50:40,621 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-25 00:50:43,100 [INFO] Use pytorch device_name: mps
+2025-07-25 00:50:43,100 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-25 00:52:52,507 [INFO] Use pytorch device_name: mps
+2025-07-25 00:52:52,508 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-25 00:52:55,302 [INFO] Use pytorch device_name: mps
+2025-07-25 00:52:55,302 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-25 00:52:56,448 [INFO] HTTP Request: GET http://127.0.0.1:7863/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-25 00:52:56,462 [INFO] HTTP Request: HEAD http://127.0.0.1:7863/ "HTTP/1.1 200 OK"
+2025-07-25 00:52:56,524 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-25 00:52:56,589 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-25 00:53:40,710 [WARNING] No files uploaded
+2025-07-25 00:53:47,584 [INFO] Indexing files: ['/private/var/folders/kt/1njn0vz93lq_23971_x49y_h0000gn/T/gradio/2e1603de864de35cdd99c6953c5d3b6408cc9be8ef8a9dffbc7a22f03125e2ea/Q4_2024_Sales_Report.pdf']
+2025-07-25 00:53:48,358 [INFO] Loading faiss.
+2025-07-25 00:53:48,495 [INFO] Successfully loaded faiss.
+2025-07-25 00:53:48,502 [INFO] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 00:53:48,508 [INFO] Indexed 5 chunks.
+2025-07-25 00:56:34,656 [INFO] Use pytorch device_name: mps
+2025-07-25 00:56:34,656 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-25 00:56:37,489 [INFO] Use pytorch device_name: mps
+2025-07-25 00:56:37,489 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-25 00:56:38,654 [INFO] HTTP Request: GET http://127.0.0.1:7863/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-25 00:56:38,667 [INFO] HTTP Request: HEAD http://127.0.0.1:7863/ "HTTP/1.1 200 OK"
+2025-07-25 00:56:38,739 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-25 00:56:38,808 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-25 00:57:23,880 [INFO] Use pytorch device_name: mps
+2025-07-25 00:57:23,880 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-25 00:57:27,590 [INFO] Use pytorch device_name: mps
+2025-07-25 00:57:27,591 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-25 00:57:28,697 [INFO] HTTP Request: GET http://127.0.0.1:7863/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-25 00:57:28,710 [INFO] HTTP Request: HEAD http://127.0.0.1:7863/ "HTTP/1.1 200 OK"
+2025-07-25 00:57:28,767 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-25 00:57:28,831 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-25 00:57:33,965 [WARNING] No files uploaded
+2025-07-25 00:58:23,890 [INFO] Use pytorch device_name: mps
+2025-07-25 00:58:23,891 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-25 00:58:27,279 [INFO] Use pytorch device_name: mps
+2025-07-25 00:58:27,280 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-25 00:58:28,334 [INFO] HTTP Request: GET http://127.0.0.1:7863/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-25 00:58:28,347 [INFO] HTTP Request: HEAD http://127.0.0.1:7863/ "HTTP/1.1 200 OK"
+2025-07-25 00:58:28,446 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-25 00:58:28,450 [INFO] HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-25 00:59:03,360 [INFO] User Input: How are sales in north
+2025-07-25 00:59:03,517 [INFO] [User Message] How are sales in north
+2025-07-25 00:59:04,809 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 00:59:04,831 [INFO] [Assistant Response] 
+2025-07-25 00:59:04,839 [INFO] [Tool: Document Search] Query: north region sales
+2025-07-25 00:59:04,845 [INFO] Loading faiss.
+2025-07-25 00:59:04,902 [INFO] Successfully loaded faiss.
+2025-07-25 00:59:04,907 [INFO] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 00:59:07,310 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 00:59:07,322 [INFO] [Document Search] Answer: The North region achieved sales of $142,800 in Q4 2024. The strong performance was attributed to expanded distribution channels and increased sales team presence, particularly in Product A sales.
+2025-07-25 00:59:07,330 [INFO] [User Message] The North region achieved sales of $142,800 in Q4 2024. The strong performance was attributed to expanded distribution channels and increased sales team presence, particularly in Product A sales.
+2025-07-25 00:59:08,684 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 00:59:08,688 [WARNING] LLM responded without using a tool. Falling back to document_qa_tool.
+2025-07-25 00:59:08,688 [INFO] [Tool: Document Search] Query: The North region achieved sales of $142,800 in Q4 2024. The strong performance was attributed to expanded distribution channels and increased sales team presence, particularly in Product A sales.
+2025-07-25 00:59:10,600 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 00:59:10,608 [INFO] [Document Search] Answer: Yes, that's correct. The North region's strong sales performance in Q4 2024, achieving $142,800, was indeed attributed to the expansion of distribution channels and an increased sales team presence, particularly for Product A.
+2025-07-25 01:00:03,458 [INFO] User Input: What is my last question
+2025-07-25 01:00:03,571 [INFO] [User Message] What is my last question
+2025-07-25 01:00:04,888 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 01:00:04,900 [WARNING] LLM responded without using a tool. Falling back to document_qa_tool.
+2025-07-25 01:00:04,900 [INFO] [Tool: Document Search] Query: What is my last question
+2025-07-25 01:00:07,926 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 01:00:07,932 [INFO] [Document Search] Answer: I'm sorry, but I can't recall previous questions as I don't have the ability to retain conversation history. Each question you ask is treated independently. Can I help you with something else?
+2025-07-25 01:00:19,649 [INFO] User Input: compare with sales in south
+2025-07-25 01:00:19,653 [INFO] [User Message] compare with sales in south
+2025-07-25 01:00:21,312 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 01:00:21,320 [INFO] [Assistant Response] 
+2025-07-25 01:00:21,330 [INFO] [Tool: Document Search] Query: north region sales
+2025-07-25 01:00:21,332 [INFO] [Tool: Document Search] Query: south region sales
+2025-07-25 01:00:22,464 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 01:00:22,486 [INFO] [Document Search] Answer: The South region achieved $126,400 in sales.
+2025-07-25 01:00:23,340 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 01:00:23,346 [INFO] [Document Search] Answer: The North region achieved sales of $142,800, with strong performance attributed to expanded distribution channels and increased sales team presence. The region showed particularly strong performance in Product A sales.
+2025-07-25 01:00:23,353 [INFO] [User Message] The North region achieved sales of $142,800, with strong performance attributed to expanded distribution channels and increased sales team presence. The region showed particularly strong performance in Product A sales.
+2025-07-25 01:00:25,039 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 01:00:25,046 [WARNING] LLM responded without using a tool. Falling back to document_qa_tool.
+2025-07-25 01:00:25,048 [INFO] [Tool: Document Search] Query: The North region achieved sales of $142,800, with strong performance attributed to expanded distribution channels and increased sales team presence. The region showed particularly strong performance in Product A sales.
+2025-07-25 01:00:27,475 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 01:00:27,509 [INFO] [Document Search] Answer: Yes, the North region achieved sales of $142,800. The strong performance in this region can be attributed to the expanded distribution channels and increased sales team presence. Particularly, Product A showed robust performance in this region.
